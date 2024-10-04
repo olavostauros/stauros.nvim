@@ -208,7 +208,9 @@ npm install -g tree-sitter-cli neovim
 ```
 
 </details>
+
 #### Linux Install
+
 <details><summary>Ubuntu Install Steps</summary>
 
 
