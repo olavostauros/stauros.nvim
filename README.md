@@ -225,12 +225,12 @@ sudo apt-get install make gcc ripgrep unzip git xclip neovim fd-find luarocks
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
 
-# make sure to restart the shell that's running wsl
+# make sure to restart the shell
 
 # download and install Node.js
 nvm install 20
 
-# restart wsl shell again
+# restart the shell again
 
 # npm packages
 npm install -g tree-sitter-cli neovim
