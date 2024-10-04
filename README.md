@@ -179,26 +179,61 @@ open a new one so that choco path is set, and run in cmd as **admin**:
 ```
 choco install -y neovim git ripgrep wget fd unzip gzip mingw make
 ```
+
 </details>
 <details><summary>WSL (Windows Subsystem for Linux)</summary>
 
 ```
-wsl --install
+wsl --install -d Ubuntu-20.04
 wsl
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
-sudo apt update
-sudo apt install make gcc ripgrep unzip git xclip neovim
+sudo apt-get update
+sudo apt-get install make gcc ripgrep unzip git xclip neovim fd-find luarocks
 ```
-</details>
+```
+# node installation
 
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+# make sure to restart the shell that's running wsl
+
+# download and install Node.js
+nvm install 20
+
+# restart wsl shell again
+
+# npm packages
+npm install -g tree-sitter-cli neovim
+```
+
+</details>
 #### Linux Install
 <details><summary>Ubuntu Install Steps</summary>
 
+
 ```
 sudo add-apt-repository ppa:neovim-ppa/unstable -y
-sudo apt update
-sudo apt install make gcc ripgrep unzip git xclip neovim
+sudo apt-get update
+sudo apt-get install make gcc ripgrep unzip git xclip neovim fd-find luarocks
 ```
+```
+# node installation
+
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+
+# make sure to restart the shell that's running wsl
+
+# download and install Node.js
+nvm install 20
+
+# restart wsl shell again
+
+# npm packages
+npm install -g tree-sitter-cli neovim
+```
+
 </details>
 <details><summary>Debian Install Steps</summary>
 
