@@ -235,6 +235,10 @@ nvm install 20
 # npm packages
 npm install -g tree-sitter-cli neovim
 ```
+```
+#install pip
+sudo apt install python3-pip
+```
 
 </details>
 <details><summary>Debian Install Steps</summary>
